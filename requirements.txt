@@ -1,0 +1,12 @@
+numpy>=1.24
+pandas>=1.5
+tqdm>=4.60
+# Install PyTorch separately depending on your setup. For CPU-only builds you can run:
+# python -m pip install torch --index-url https://download.pytorch.org/whl/cpu
+# If you have AMD ROCm follow AMD/ROCm instructions to install a ROCm-compatible PyTorch build.
+torch
+pytest
+tensorboard
+clang
+streamlit>=1.0
+pyarrow>=10.0

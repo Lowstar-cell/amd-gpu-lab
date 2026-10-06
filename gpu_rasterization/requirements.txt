@@ -1,0 +1,20 @@
+# AMD GPU 3D Rasterizer Requirements
+
+# Core
+numpy>=1.21.0
+scipy>=1.7.0
+
+# Deep Learning (ROCm version)
+# Install with: pip3 install torch torchvision --index-url https://download.pytorch.org/whl/rocm6.2
+torch>=2.0.0
+torchvision>=0.15.0
+
+# Data handling
+h5py>=3.7.0
+matplotlib>=3.5.0
+
+# Optional: OpenCL support
+# pyopencl>=2022.1
+
+# Development
+pytest>=7.0.0

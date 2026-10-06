@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+.venv*/
+build/
+/data*/
+*.pt
+*.h5
+*.log
+*.pid
+*.so
+*.so.*
